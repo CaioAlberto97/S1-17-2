@@ -10,8 +10,8 @@ menuButton.addEventListener('click', function(){
     div.classList.toggle('show-div')
 
     if (menuButton.src == 'http://127.0.0.1:5500/imgs/menu.png'){
-        menuButton.src = `/imgs/close.png`
+        menuButton.src = `./imgs/close.png`
     } else {
-        menuButton.src = "/imgs/menu.png"
+        menuButton.src = "./imgs/menu.png"
     }
 })
